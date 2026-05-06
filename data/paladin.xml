@@ -910,7 +910,7 @@ Also increases your attack power by ${$s2}.1%.</description>
     <resource type="0" cost="0.6" type_name="Base Mana (0)" cost_mana_flat="1500" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
-      <effect number="1" id="86331" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" sp_coefficient="4.4064" />
+      <effect number="1" id="86331" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" sp_coefficient="5.06736" />
       <effect number="2" id="337580" type="3" type_text="Dummy (3)" sub_type="0" base_value="5" scaled_value="5" />
       <effect number="3" id="736030" type="3" type_text="Dummy (3)" sub_type="0" base_value="5" scaled_value="5" />
     </effects>
@@ -4665,7 +4665,7 @@ $?s406158 [|cFFFFFFFFGenerates $406158s1 Holy Power.][]</description>
     <attributes>0000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
       <effect number="1" id="885104" type="6" type_text="Apply Aura (6)" sub_type="137" sub_type_text="Modify Total Stat% (137)" base_value="30" scaled_value="30" misc_value_2="4" />
-      <effect number="2" id="894604" type="6" type_text="Apply Aura (6)" sub_type="142" sub_type_text="Modify Base Resistance (142)" base_value="55" scaled_value="55" misc_value="1" />
+      <effect number="2" id="894604" type="6" type_text="Apply Aura (6)" sub_type="142" sub_type_text="Modify Base Resistance (142)" base_value="70" scaled_value="70" misc_value="1" />
       <effect number="3" id="894606" type="6" type_text="Apply Aura (6)" sub_type="87" sub_type_text="Modify Damage Taken% (87)" base_value="0" scaled_value="0" misc_value_mod_damage="127" />
     </effects>
     <description>Stamina increased by $s1%.
@@ -9967,8 +9967,8 @@ Beacon of the Savior transfers to the lowest health ally within $s1 yds if it he
     <class id="paladin" name="Paladin" />
     <attributes>0000000000000000101000000000010100000000000000000100000000000000000100001000000000000000000000000000000000000000000000000010000000000000000000000001000000000000000001000100000000000000000000000010000000000000000000000000000000000000000000000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000010000000000000000000000000000000000000</attributes>
     <effects count="7">
-      <effect number="1" id="1245666" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="0" scaled_value="0" trigger_spell_id="53651" />
-      <effect number="2" id="1245667" type="64" type_text="Trigger Spell (64)" trigger_spell_name="Light's Beacon" sub_type="0" base_value="0" scaled_value="0" trigger_spell_id="53651" />
+      <effect number="1" id="1245666" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="0" scaled_value="0" />
+      <effect number="2" id="1245667" type="3" type_text="Dummy (3)" sub_type="0" base_value="0" scaled_value="0" />
       <effect number="3" id="1245668" type="6" type_text="Apply Aura (6)" sub_type="283" sub_type_text="Modify Healing Taken% from Caster's Spells (283)" base_value="0" scaled_value="0" />
       <effect number="4" id="1245669" type="6" type_text="Apply Aura (6)" sub_type="87" sub_type_text="Modify Damage Taken% (87)" base_value="-5" scaled_value="-5" misc_value_mod_damage="127" />
       <effect number="5" id="1245670" type="6" type_text="Apply Aura (6)" sub_type="504" sub_type_text="Modify Healing Taken% from Caster (504)" base_value="0" scaled_value="0" />
@@ -10154,7 +10154,7 @@ Each Holy Power spent during Avenging Wrath increases Haste by an additional $s1
     <spec id="Protection Paladin" name="protection" />
     <class id="paladin" name="Paladin" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="7">
+    <effects count="8">
       <effect number="1" id="1264700" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" />
       <effect number="2" id="1266344" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" misc_value="1" />
       <effect number="3" id="1266345" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" />
@@ -10162,6 +10162,7 @@ Each Holy Power spent during Avenging Wrath increases Haste by an additional $s1
       <effect number="5" id="1317267" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" />
       <effect number="6" id="1317268" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" />
       <effect number="7" id="1317414" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="-10" scaled_value="-10" misc_value="5" misc_value_2="2589" />
+      <effect number="8" id="1323473" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="-75" scaled_value="-75" misc_value="6" misc_value_2="6716" />
     </effects>
   </spell>
   <spell id="1258011" name="Retribution Paladin" passive="true">

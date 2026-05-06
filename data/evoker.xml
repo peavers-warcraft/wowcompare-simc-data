@@ -3140,10 +3140,10 @@ Your damage done is increased by $w1%.</tooltip>
     <class id="evoker" name="Evoker" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="17">
-      <effect number="1" id="1037188" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="30" scaled_value="30" />
-      <effect number="2" id="1037189" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="30" scaled_value="30" misc_value="22" />
-      <effect number="3" id="1037190" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="30" scaled_value="30" />
-      <effect number="4" id="1037191" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="30" scaled_value="30" />
+      <effect number="1" id="1037188" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="23" scaled_value="23" />
+      <effect number="2" id="1037189" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="23" scaled_value="23" misc_value="22" />
+      <effect number="3" id="1037190" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="23" scaled_value="23" />
+      <effect number="4" id="1037191" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="23" scaled_value="23" />
       <effect number="5" id="1037192" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="0" scaled_value="0" />
       <effect number="6" id="1037193" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="0" scaled_value="0" misc_value="22" />
       <effect number="7" id="1037194" type="6" type_text="Apply Aura (6)" sub_type="379" sub_type_text="Modify Mana Regen% (379)" base_value="2" scaled_value="2" />
@@ -3975,7 +3975,7 @@ Affects the nearest ally within $s2 yds, preferring damage dealers with their co
       <effect number="1" id="1075747" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="0" scaled_value="0" />
     </effects>
     <description>Fire Breath grants the inferno's blessing for $410263d to you and a nearby ally, giving their damaging attacks and spells a high chance to deal an additional $&lt;dmg&gt; Fire damage.</description>
-    <variables>$coeff=${3.5}
+    <variables>$coeff=${2.69}
 $meTalent=$?s1291457[${1+($1291457s1/100)}][${1}]
 $dmg=${$INT*$&lt;coeff&gt;*$&lt;meTalent&gt;*(1+$@versadmg)*$pctD}</variables>
   </spell>
@@ -5056,7 +5056,8 @@ Increases the duration of your active Ebon Might effects by ${$395153s3/1000} se
     <description>$?c1[Mass Disintegrate][Mass Eruption] marks your primary target for destruction for the next $434473d.
 
 You and your allies have a chance to trigger a Bombardment when attacking marked targets, dealing $&lt;dmg&gt; Volcanic damage split amongst all nearby enemies.</description>
-    <variables>$dmg=${$INT*4.75*(1+$@versadmg)*$pctD}</variables>
+    <variables>$MotBD=$?s441705[${1+($441705s1/100)}][${1}]
+$dmg=${$INT*4.75*(1+$@versadmg)*$pctD*$&lt;MotBD&gt;}</variables>
   </spell>
   <spell id="434473" name="Bombardments" level="10" range="100" duration="6" proc_chance="30">
     <class id="evoker" name="Evoker" />

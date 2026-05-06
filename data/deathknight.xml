@@ -1343,11 +1343,11 @@ Damage taken increased by $w2.][]</tooltip>
     <class id="deathknight" name="Death Knight" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="15">
-      <effect number="1" id="179689" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="-7" scaled_value="-7" />
-      <effect number="2" id="191174" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="-7" scaled_value="-7" misc_value="22" />
-      <effect number="3" id="844541" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="-7" scaled_value="-7" />
-      <effect number="4" id="1032340" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="-7" scaled_value="-7" />
-      <effect number="5" id="1052714" type="6" type_text="Apply Aura (6)" sub_type="344" sub_type_text="Modify Auto Attack Damage Done% (344)" base_value="333" scaled_value="333" />
+      <effect number="1" id="179689" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="-2" scaled_value="-2" />
+      <effect number="2" id="191174" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="-2" scaled_value="-2" misc_value="22" />
+      <effect number="3" id="844541" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="-2" scaled_value="-2" />
+      <effect number="4" id="1032340" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="-2" scaled_value="-2" />
+      <effect number="5" id="1052714" type="6" type_text="Apply Aura (6)" sub_type="344" sub_type_text="Modify Auto Attack Damage Done% (344)" base_value="355" scaled_value="355" />
       <effect number="6" id="1131942" type="6" type_text="Apply Aura (6)" sub_type="453" sub_type_text="Modify Recharge Time (Category) (453)" base_value="-10000" scaled_value="-10000" misc_value="1428" />
       <effect number="7" id="1131943" type="6" type_text="Apply Aura (6)" sub_type="107" sub_type_text="Add Flat Modifier (107)" modifier="3" modifier_text="Spell Effect 1 (3)" base_value="-8" scaled_value="-8" misc_value="3" />
       <effect number="8" id="1131944" type="6" type_text="Apply Aura (6)" sub_type="219" sub_type_text="Apply Flat Modifier w/ Label (219)" base_value="3" scaled_value="3" misc_value="3" misc_value_2="4361" />
@@ -1364,7 +1364,7 @@ Damage taken increased by $w2.][]</tooltip>
     <spec id="Unholy Death Knight" name="unholy" />
     <class id="deathknight" name="Death Knight" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="19">
+    <effects count="20">
       <effect number="1" id="179690" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="-20" scaled_value="-20" />
       <effect number="2" id="191170" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="-20" scaled_value="-20" misc_value="22" />
       <effect number="3" id="191171" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="-20" scaled_value="-20" />
@@ -1380,10 +1380,11 @@ Damage taken increased by $w2.][]</tooltip>
       <effect number="13" id="1286011" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="25" scaled_value="25" />
       <effect number="14" id="1286012" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="300" scaled_value="300" />
       <effect number="15" id="1300378" type="6" type_text="Apply Aura (6)" sub_type="219" sub_type_text="Apply Flat Modifier w/ Label (219)" base_value="-2" scaled_value="-2" misc_value="12" misc_value_2="4192" />
-      <effect number="16" id="1304603" type="6" type_text="Apply Aura (6)" sub_type="218" sub_type_text="Apply Percent Modifier w/ Label (218)" base_value="100" scaled_value="100" misc_value_2="5090" />
+      <effect number="16" id="1304603" type="6" type_text="Apply Aura (6)" sub_type="218" sub_type_text="Apply Percent Modifier w/ Label (218)" base_value="50" scaled_value="50" misc_value_2="5090" />
       <effect number="17" id="1304611" type="6" type_text="Apply Aura (6)" sub_type="218" sub_type_text="Apply Percent Modifier w/ Label (218)" base_value="50" scaled_value="50" misc_value="22" misc_value_2="5089" />
       <effect number="18" id="1305281" type="6" type_text="Apply Aura (6)" sub_type="453" sub_type_text="Modify Recharge Time (Category) (453)" base_value="-10000" scaled_value="-10000" misc_value="1428" />
       <effect number="19" id="1307466" type="6" type_text="Apply Aura (6)" sub_type="219" sub_type_text="Apply Flat Modifier w/ Label (219)" base_value="-2" scaled_value="-2" misc_value="37" misc_value_2="6462" />
+      <effect number="20" id="1323648" type="6" type_text="Apply Aura (6)" sub_type="218" sub_type_text="Apply Percent Modifier w/ Label (218)" base_value="-15" scaled_value="-15" misc_value_2="2915" />
     </effects>
   </spell>
   <spell id="137008" name="Blood Death Knight" passive="true">
@@ -5634,8 +5635,8 @@ Multiple applications may overlap.</description>
     <class id="deathknight" name="Death Knight" />
     <attributes>0000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000010000000000000000000000000000000001000000000000000000000000000000000001000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1015149" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="1.12315" />
-      <effect number="2" id="1274362" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.449266" />
+      <effect number="1" id="1015149" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.954678" />
+      <effect number="2" id="1274362" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.381876" />
     </effects>
     <description>$@spelldesc383269</description>
   </spell>
@@ -9026,8 +9027,8 @@ Damage dealt increased by $w1%.</tooltip>
     <class id="deathknight" name="Death Knight" />
     <attributes>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1233789" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.659312" />
-      <effect number="2" id="1233790" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.263727" />
+      <effect number="1" id="1233789" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.494484" />
+      <effect number="2" id="1233790" type="2" type_text="School Damage (2)" school="shadow" school_text="shadow" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" ap_coefficient="0.197795" />
     </effects>
     <description>Causes each of your Virulent Plagues to flare up, dealing $s1 Shadow damage to the infected enemy, and an additional $s2 Shadow damage to all other enemies near them.</description>
   </spell>
@@ -9576,8 +9577,8 @@ Magus of the Dead Frostbolts and Shadow Bolts deal $s3% increased damage.</descr
     <class id="deathknight" name="Death Knight" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="4">
-      <effect number="1" id="1264668" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="19" scaled_value="19" />
-      <effect number="2" id="1265440" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="19" scaled_value="19" misc_value="1" />
+      <effect number="1" id="1264668" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="13" scaled_value="13" />
+      <effect number="2" id="1265440" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="13" scaled_value="13" misc_value="1" />
       <effect number="3" id="1317283" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-13" scaled_value="-13" />
       <effect number="4" id="1317284" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" />
     </effects>
@@ -9597,9 +9598,13 @@ Magus of the Dead Frostbolts and Shadow Bolts deal $s3% increased damage.</descr
     <spec id="Unholy Death Knight" name="unholy" />
     <class id="deathknight" name="Death Knight" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="2">
+    <effects count="6">
       <effect number="1" id="1264672" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="2" scaled_value="2" />
       <effect number="2" id="1266210" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="2" scaled_value="2" misc_value="1" />
+      <effect number="3" id="1323650" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="18" scaled_value="18" misc_value_2="2915" />
+      <effect number="4" id="1323651" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="18" scaled_value="18" misc_value_2="6246" />
+      <effect number="5" id="1323652" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="33" scaled_value="33" misc_value_2="6719" />
+      <effect number="6" id="1323653" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="33" scaled_value="33" misc_value_2="5090" />
     </effects>
   </spell>
   <spell id="1263566" name="Abomination Limb" range="20" duration="4">
@@ -9935,12 +9940,12 @@ Deals $1263752s1 Shadow damage every $1263729t1 sec to enemies within $1263752A1
     <effects count="8">
       <effect number="1" id="1277378" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="2" scaled_value="2" />
       <effect number="2" id="1277379" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="2" scaled_value="2" />
-      <effect number="3" id="1311173" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="5" scaled_value="5" />
+      <effect number="3" id="1311173" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="10" scaled_value="10" />
       <effect number="4" id="1311174" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="5" scaled_value="5" />
-      <effect number="5" id="1311177" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="5" scaled_value="5" />
-      <effect number="6" id="1319200" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="5" scaled_value="5" misc_value="22" />
+      <effect number="5" id="1311177" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="10" scaled_value="10" />
+      <effect number="6" id="1319200" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="10" scaled_value="10" misc_value="22" />
       <effect number="7" id="1319201" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="5" scaled_value="5" misc_value="22" />
-      <effect number="8" id="1319202" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="5" scaled_value="5" misc_value="22" />
+      <effect number="8" id="1319202" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="10" scaled_value="10" misc_value="22" />
     </effects>
     <description>Essence of the Blood Queen additionally increases your Mastery by $?c3[${$s1/10}.1][${$s3/10}.1]% per stack.
 

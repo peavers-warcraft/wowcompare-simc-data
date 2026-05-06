@@ -1928,7 +1928,7 @@ $@spellicon121253 Keg Smash: Reduces the remaining cooldown on your Brews by $s3
     <effects count="3">
       <effect number="1" id="288839" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="5" scaled_value="5" />
       <effect number="2" id="344133" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="3" modifier_text="Spell Effect 1 (3)" base_value="20" scaled_value="20" misc_value="3" />
-      <effect number="3" id="344134" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="6000" scaled_value="6000" />
+      <effect number="3" id="344134" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="4000" scaled_value="4000" />
     </effects>
     <description>Stagger is $s1% more effective at delaying damage.
 
@@ -9122,7 +9122,7 @@ Haste increased by $w8%.][]</tooltip>
     <class id="monk" name="Monk" />
     <attributes>0000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
-      <effect number="1" id="1239954" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="20" scaled_value="20" />
+      <effect number="1" id="1239954" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="15" scaled_value="15" />
     </effects>
     <description>The effectiveness of your Stagger is increased by up to $s1%, based on your missing health.</description>
   </spell>
@@ -9526,8 +9526,8 @@ Movement speed reduced by $s2%.</tooltip>
     <class id="monk" name="Monk" />
     <attributes>0000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1264723" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" />
-      <effect number="2" id="1266474" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" misc_value="1" />
+      <effect number="1" id="1264723" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-15" scaled_value="-15" />
+      <effect number="2" id="1266474" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-15" scaled_value="-15" misc_value="1" />
     </effects>
   </spell>
   <spell id="1258122" name="Windwalker Monk" passive="true">
