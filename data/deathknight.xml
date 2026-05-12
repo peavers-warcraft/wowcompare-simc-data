@@ -1001,7 +1001,7 @@ $@spelldesc191587</description>
     <class id="deathknight" name="Death Knight" />
     <attributes>0000000000000000000000000000000100000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
-      <effect number="1" id="68684" type="6" type_text="Apply Aura (6)" sub_type="47" sub_type_text="Modify Parry% (47)" base_value="20" scaled_value="20" />
+      <effect number="1" id="68684" type="6" type_text="Apply Aura (6)" sub_type="47" sub_type_text="Modify Parry% (47)" base_value="25" scaled_value="20" />
     </effects>
     <description>$@spelldesc49028</description>
     <tooltip>Parry chance increased by $s1%.</tooltip>
@@ -5047,7 +5047,7 @@ Only usable on enemies below $s2% maximum health.
       <effect number="1" id="1000060" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="12" modifier_text="Spell Effect 2 (12)" base_value="60" scaled_value="60" misc_value="12" />
       <effect number="2" id="1000061" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="23" modifier_text="Spell Effect 3 (23)" base_value="60" scaled_value="60" misc_value="23" />
       <effect number="3" id="1000062" type="6" type_text="Apply Aura (6)" sub_type="107" sub_type_text="Add Flat Modifier (107)" modifier="14" modifier_text="Spell Resource Cost 1 (14)" base_value="-100" scaled_value="-100" misc_value="14" />
-      <effect number="4" id="1000063" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="5" scaled_value="5" />
+      <effect number="4" id="1000063" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="15" scaled_value="5" />
       <effect number="5" id="1012454" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="-50" scaled_value="-50" />
     </effects>
     <description>Death Strike's cost is reduced by $?a137008[${$s5/-10}][${$s3/-10}], and its healing is increased by $?a137008[$s4%][$s1%].</description>
@@ -5159,7 +5159,7 @@ Can only occur every $374609d.</description>
     <class id="deathknight" name="Death Knight" />
     <attributes>0000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1000722" type="6" type_text="Apply Aura (6)" sub_type="137" sub_type_text="Modify Total Stat% (137)" base_value="35" scaled_value="35" misc_value="2" misc_value_2="4" />
+      <effect number="1" id="1000722" type="6" type_text="Apply Aura (6)" sub_type="137" sub_type_text="Modify Total Stat% (137)" base_value="40" scaled_value="35" misc_value="2" misc_value_2="4" />
       <effect number="2" id="1000723" type="6" type_text="Apply Aura (6)" sub_type="142" sub_type_text="Modify Base Resistance (142)" base_value="45" scaled_value="45" misc_value="1" />
     </effects>
     <description>Your Blood thickens increasing your Stamina by $s1% and your Armor by $s2%.</description>
@@ -9821,7 +9821,7 @@ Deals $1263752s1 Shadow damage every $1263729t1 sec to enemies within $1263752A1
     </effects>
     <description>When you consume a Rune you have a chance to call a Dancing Rune Weapon to your aid for $1264353d.</description>
   </spell>
-  <spell id="1264353" name="Dancing Rune Weapon" range="30" duration="6" proc_chance="100">
+  <spell id="1264353" name="Dancing Rune Weapon" range="30" duration="8" proc_chance="100">
     <class id="deathknight" name="Death Knight" />
     <attributes>0000000000000000000000000000000000000000011000000000000000001000000000000000000000000000000000000100000000100000001000000010000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
