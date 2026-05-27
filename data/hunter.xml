@@ -8709,8 +8709,8 @@ During Takedown, your attack speed is increased by $s3%.</description>
     <class id="hunter" name="Hunter" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1264706" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-4" scaled_value="-4" />
-      <effect number="2" id="1266380" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-4" scaled_value="-4" misc_value="1" />
+      <effect number="1" id="1264706" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="2" scaled_value="2" />
+      <effect number="2" id="1266380" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="2" scaled_value="2" misc_value="1" />
     </effects>
   </spell>
   <spell id="1257011" name="Vulnerability" passive="true">

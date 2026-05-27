@@ -188,8 +188,8 @@ Launches ${($d/$t1)+1} waves of Arcane Missiles at the enemy over $5143d, causin
     <class id="mage" name="Mage" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000001000000000000000000000000000000000000001000000000000000000001010000001000000010000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="2716" type="2" type_text="School Damage (2)" school="arcane" school_text="arcane" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="0.97992" />
-      <effect number="2" id="1243492" type="2" type_text="School Damage (2)" school="arcane" school_text="arcane" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="0.48996" />
+      <effect number="1" id="2716" type="2" type_text="School Damage (2)" school="arcane" school_text="arcane" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="1.078" />
+      <effect number="2" id="1243492" type="2" type_text="School Damage (2)" school="arcane" school_text="arcane" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="0.539" />
     </effects>
     <description>$@spelldesc5143</description>
   </spell>
@@ -198,7 +198,7 @@ Launches ${($d/$t1)+1} waves of Arcane Missiles at the enemy over $5143d, causin
     <resource type="0" cost="1.5" type_name="Base Mana (0)" cost_mana_flat="3750" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
-      <effect number="1" id="4785" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="5.5545" />
+      <effect number="1" id="4785" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="6" />
     </effects>
     <description>Hurls an immense fiery boulder that causes $s1 Fire damage$?a321711[ and an additional $321712o2 Fire damage over $321712d][].</description>
   </spell>
@@ -1324,10 +1324,10 @@ Damage taken increased by $w2.][]</tooltip>
     <class id="mage" name="Mage" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="7">
-      <effect number="1" id="179704" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="0" scaled_value="0" />
-      <effect number="2" id="191116" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="0" scaled_value="0" misc_value="22" />
-      <effect number="3" id="191117" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="0" scaled_value="0" />
-      <effect number="4" id="191118" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="0" scaled_value="0" />
+      <effect number="1" id="179704" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="5" scaled_value="5" />
+      <effect number="2" id="191116" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="22" modifier_text="Spell Periodic Amount (22)" base_value="5" scaled_value="5" misc_value="22" />
+      <effect number="3" id="191117" type="6" type_text="Apply Aura (6)" sub_type="429" sub_type_text="Modify Pet Damage Done% (429)" base_value="5" scaled_value="5" />
+      <effect number="4" id="191118" type="6" type_text="Apply Aura (6)" sub_type="531" sub_type_text="Modify Guardian Damage Done% (531)" base_value="5" scaled_value="5" />
       <effect number="5" id="191119" type="6" type_text="Apply Aura (6)" sub_type="110" sub_type_text="Modify Power Regen (110)" base_value="60" scaled_value="0" points_per_level="-3" />
       <effect number="6" id="1032357" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="14" modifier_text="Spell Resource Cost 1 (14)" base_value="-67" scaled_value="-67" misc_value="14" />
       <effect number="7" id="1300544" type="6" type_text="Apply Aura (6)" sub_type="219" sub_type_text="Apply Flat Modifier w/ Label (219)" base_value="-15" scaled_value="-15" misc_value="23" misc_value_2="6322" />
@@ -6376,8 +6376,8 @@ Combustion increases your critical strike damage by ${$s3/1000}.1%.</description
     <effects count="4">
       <effect number="1" id="1151352" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="3" scaled_value="3" />
       <effect number="2" id="1261871" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="3" scaled_value="3" />
-      <effect number="3" id="1261872" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="25" scaled_value="25" />
-      <effect number="4" id="1261873" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="15" scaled_value="15" />
+      <effect number="3" id="1261872" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="30" scaled_value="30" />
+      <effect number="4" id="1261873" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="20" scaled_value="20" />
     </effects>
     <description>$?c1[Arcane Blast damage increased by $s3%.
 
@@ -6798,7 +6798,7 @@ Only usable in delves and outdoors in Khaz Algar.</description>
     <class id="mage" name="Mage" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
-      <effect number="1" id="1168176" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="2.3" />
+      <effect number="1" id="1168176" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="2.484" />
     </effects>
     <description>Hurls an immense fiery boulder that causes $s1 Fire damage$?a321711[ and an additional $321712o2 Fire damage over $321712d][].</description>
   </spell>
@@ -6989,8 +6989,8 @@ Arcane Missiles damage increased by $s2%.</description>
     <class id="mage" name="Mage" />
     <attributes>0000000000000000100000001001000000000100000000000000000000000000001000000000001000000000000010000000000001000000000000000000000010000001000000000000000000000000000100000000010001100000000000000000000010001000000000000000000000000000000000000000000000000000000001000100100000000000000000000000000000010000000010000000000000000000000000000000001000000000000000000000000000000000001000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="2">
-      <effect number="1" id="1182508" type="2" type_text="School Damage (2)" school="frostfire" school_text="frostfire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="2.47" />
-      <effect number="2" id="1182509" type="6" type_text="Apply Aura (6)" sub_type="3" sub_type_text="Periodic Damage (3)" school="frostfire" school_text="frostfire" period="1" base_value="0" scaled_value="0" sp_coefficient="0.02575" />
+      <effect number="1" id="1182508" type="2" type_text="School Damage (2)" school="frostfire" school_text="frostfire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="2.594" />
+      <effect number="2" id="1182509" type="6" type_text="Apply Aura (6)" sub_type="3" sub_type_text="Periodic Damage (3)" school="frostfire" school_text="frostfire" period="1" base_value="0" scaled_value="0" sp_coefficient="0.027" />
     </effects>
     <description>$@spelldesc431044</description>
     <tooltip>Receiving $w2 damage every $t2 sec.</tooltip>
@@ -7908,7 +7908,7 @@ $@spelldesc199786</description>
     <effects count="3">
       <effect number="1" id="1250555" type="6" type_text="Apply Aura (6)" sub_type="220" sub_type_text="Modify Spell School (220)" base_value="0" scaled_value="0" misc_value="20" />
       <effect number="2" id="1250556" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="15" scaled_value="15" />
-      <effect number="3" id="1250557" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="10" scaled_value="10" />
+      <effect number="3" id="1250557" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="25" scaled_value="25" />
     </effects>
     <description>$?a137020[Flurry]?a137019[Fire Blast][Flurry and Fire Blast] now $?a137020[deals]?a137019[deals][deal] Frostfire damage and $?a137020[its]?a137019[its][their] damage is increased by $?a137020[$s3%]?a137019[$s2%][$s2%].</description>
   </spell>
@@ -7918,7 +7918,7 @@ $@spelldesc199786</description>
     <effects count="6">
       <effect number="1" id="1250585" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="15" modifier_text="Spell Critical Bonus Multiplier (15)" base_value="20" scaled_value="20" misc_value="15" />
       <effect number="2" id="1250586" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="15" modifier_text="Spell Critical Bonus Multiplier (15)" base_value="20" scaled_value="20" misc_value="15" />
-      <effect number="3" id="1250593" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="15" scaled_value="15" />
+      <effect number="3" id="1250593" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="40" scaled_value="40" />
       <effect number="4" id="1250594" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="15" scaled_value="15" />
       <effect number="5" id="1261863" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="10" scaled_value="10" />
       <effect number="6" id="1261864" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="15" scaled_value="15" />
@@ -7936,7 +7936,7 @@ Flamestrike damage increased by $s5%.][Ice Lance and Pyroblast  have their damag
     <attributes>0000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="4">
       <effect number="1" id="1250595" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="20" scaled_value="20" />
-      <effect number="2" id="1250596" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="20" scaled_value="20" />
+      <effect number="2" id="1250596" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="50" scaled_value="50" />
       <effect number="3" id="1250597" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="20" scaled_value="20" />
       <effect number="4" id="1250598" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="0" modifier_text="Spell Direct Amount (0)" base_value="20" scaled_value="20" />
     </effects>
@@ -8233,8 +8233,8 @@ Movement speed increased by $s4%.][]</tooltip>
     <class id="mage" name="Mage" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
-      <effect number="1" id="1264661" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" />
-      <effect number="2" id="1264842" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" misc_value="1" />
+      <effect number="1" id="1264661" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-5" scaled_value="-5" />
+      <effect number="2" id="1264842" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-5" scaled_value="-5" misc_value="1" />
       <effect number="3" id="1264847" type="6" type_text="Apply Aura (6)" sub_type="646" sub_type_text="Modify Flat PVP Multiplier (646)" base_value="20" scaled_value="20" misc_value="6" />
     </effects>
   </spell>
@@ -8247,8 +8247,8 @@ Movement speed increased by $s4%.][]</tooltip>
       <effect number="2" id="1264855" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-5" scaled_value="-5" misc_value="1" />
       <effect number="3" id="1264856" type="6" type_text="Apply Aura (6)" sub_type="646" sub_type_text="Modify Flat PVP Multiplier (646)" base_value="20" scaled_value="20" misc_value="6" />
       <effect number="4" id="1264857" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="90" scaled_value="90" />
-      <effect number="5" id="1264858" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="15" scaled_value="15" />
-      <effect number="6" id="1264859" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="15" scaled_value="15" misc_value="1" />
+      <effect number="5" id="1264858" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="55" scaled_value="55" />
+      <effect number="6" id="1264859" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="55" scaled_value="55" misc_value="1" />
       <effect number="7" id="1264860" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="-5" scaled_value="-5" misc_value="5" misc_value_2="4890" />
       <effect number="8" id="1264861" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="-35" scaled_value="-35" misc_value="7" misc_value_2="4891" />
     </effects>
@@ -8495,7 +8495,7 @@ Your Haste is increased by $s2%.</description>
     <resource type="0" cost="1.5" type_name="Base Mana (0)" cost_mana_flat="3750" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000010000000000000010000000000000000000000000000000000000000000000000000000000000000100100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
-      <effect number="1" id="1273366" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="7.05" chain_multiplier="0.8" />
+      <effect number="1" id="1273366" type="2" type_text="School Damage (2)" school="fire" school_text="fire" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="8.813" chain_multiplier="0.8" />
     </effects>
     <description>$@spelldesc1262843</description>
   </spell>

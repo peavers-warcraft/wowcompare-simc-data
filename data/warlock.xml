@@ -8073,21 +8073,22 @@ $@spelldesc1264093</description>
     <spec id="Affliction Warlock" name="affliction" />
     <class id="warlock" name="Warlock" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="14">
+    <effects count="15">
       <effect number="1" id="1264658" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="29" scaled_value="29" />
       <effect number="2" id="1264885" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="29" scaled_value="29" misc_value="1" />
       <effect number="3" id="1264886" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="0" scaled_value="0" />
-      <effect number="4" id="1264887" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-13" scaled_value="-13" misc_value_2="3444" />
-      <effect number="5" id="1264888" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-13" scaled_value="-13" misc_value="1" misc_value_2="3445" />
+      <effect number="4" id="1264887" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="0" scaled_value="0" misc_value_2="3444" />
+      <effect number="5" id="1264888" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="0" scaled_value="0" misc_value="1" misc_value_2="3445" />
       <effect number="6" id="1264889" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-17" scaled_value="-17" misc_value_2="3545" />
       <effect number="7" id="1264890" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-40" scaled_value="-40" misc_value_2="5185" />
       <effect number="8" id="1264891" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="15" scaled_value="15" misc_value="5" misc_value_2="4340" />
-      <effect number="9" id="1264892" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-26" scaled_value="-26" misc_value_2="3456" />
+      <effect number="9" id="1264892" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="0" scaled_value="0" misc_value_2="3456" />
       <effect number="10" id="1264893" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-43" scaled_value="-43" misc_value_2="5185" />
       <effect number="11" id="1264894" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="-36" scaled_value="-36" misc_value_2="5186" />
       <effect number="12" id="1314351" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="20" scaled_value="20" />
       <effect number="13" id="1314352" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="20" scaled_value="20" misc_value="1" />
       <effect number="14" id="1314353" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="20" scaled_value="20" misc_value="1" />
+      <effect number="15" id="1329606" type="6" type_text="Apply Aura (6)" sub_type="648" sub_type_text="Modify Flat PVP Multiplier by Label (648)" base_value="2" scaled_value="2" misc_value="7" misc_value_2="5181" />
     </effects>
   </spell>
   <spell id="1256907" name="Demonology Warlock" passive="true">

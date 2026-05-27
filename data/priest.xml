@@ -106,7 +106,7 @@ Damage taken reduced by $s4%.][]</tooltip>
   </spell>
   <spell id="596" name="Prayer of Healing" range="40" cast_time_else="2.5" gcd="1.5">
     <class id="priest" name="Priest" />
-    <resource type="0" cost="5.25" type_name="Base Mana (0)" cost_mana_flat="13125" cost_mana_flat_level="90" />
+    <resource type="0" cost="4.83" type_name="Base Mana (0)" cost_mana_flat="12075" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
       <effect number="1" id="243" type="64" type_text="Trigger Spell (64)" trigger_spell_name="Prayer of Healing" sub_type="0" base_value="0" scaled_value="0" trigger_spell_id="98367" />
@@ -160,10 +160,10 @@ Damage taken reduced by $s4%.][]</tooltip>
   </spell>
   <spell id="2061" name="Flash Heal" level="3" range="40" cast_time_else="1.5" gcd="1.5">
     <class id="priest" name="Priest" />
-    <resource type="0" cost="3.15" type_name="Base Mana (0)" cost_mana_flat="7875" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
-    <resource type="0" cost="3.15" type_name="Base Mana (0)" cost_mana_flat="25000" cost_mana_flat_level="90" cost_aura_id="137033" cost_aura_name="Shadow Priest" />
-    <resource type="0" cost="3.15" type_name="Base Mana (0)" cost_mana_flat="9000" cost_mana_flat_level="90" cost_aura_id="137032" cost_aura_name="Discipline Priest" />
-    <resource type="0" cost="3.15" type_name="Base Mana (0)" cost_mana_flat="25000" cost_mana_flat_level="90" cost_aura_id="417191" cost_aura_name="Initial Priest" />
+    <resource type="0" cost="2.9" type_name="Base Mana (0)" cost_mana_flat="7249" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
+    <resource type="0" cost="2.9" type_name="Base Mana (0)" cost_mana_flat="25000" cost_mana_flat_level="90" cost_aura_id="137033" cost_aura_name="Shadow Priest" />
+    <resource type="0" cost="2.9" type_name="Base Mana (0)" cost_mana_flat="9000" cost_mana_flat_level="90" cost_aura_id="137032" cost_aura_name="Discipline Priest" />
+    <resource type="0" cost="2.9" type_name="Base Mana (0)" cost_mana_flat="25000" cost_mana_flat_level="90" cost_aura_id="417191" cost_aura_name="Initial Priest" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
       <effect number="1" id="613" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="6.82" />
@@ -449,7 +449,7 @@ Damage increased by $s4% to targets below $s3% health.]$?c3[][]$?s137033[
     <spec id="Holy Priest" name="holy" />
     <class id="priest" name="Priest" />
     <resource type="0" cost="2" type_name="Base Mana (0)" cost_mana_flat="5000" cost_mana_flat_level="90" cost_aura_id="137032" cost_aura_name="Discipline Priest" />
-    <resource type="0" cost="2" type_name="Base Mana (0)" cost_mana_flat="4750" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
+    <resource type="0" cost="2" type_name="Base Mana (0)" cost_mana_flat="4375" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
     <resource type="0" cost="2" type_name="Base Mana (0)" cost_mana_flat="25000" cost_mana_flat_level="90" cost_aura_id="137033" cost_aura_name="Shadow Priest" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000010000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
@@ -7417,7 +7417,7 @@ Movement speed increased by $343988w%.][]</tooltip>
     <spec id="Holy Priest" name="holy" />
     <class id="priest" name="Priest" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="11">
+    <effects count="13">
       <effect number="1" id="1235032" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-13" scaled_value="-13" />
       <effect number="2" id="1235033" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-13" scaled_value="-13" misc_value="1" />
       <effect number="3" id="1235034" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-13" scaled_value="-13" misc_value="2" />
@@ -7429,6 +7429,8 @@ Movement speed increased by $343988w%.][]</tooltip>
       <effect number="9" id="1264782" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="19" scaled_value="19" />
       <effect number="10" id="1264783" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="85" scaled_value="85" />
       <effect number="11" id="1264784" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="82" scaled_value="82" />
+      <effect number="12" id="1329440" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="25" scaled_value="25" misc_value_2="2932" />
+      <effect number="13" id="1329441" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="25" scaled_value="25" misc_value_2="4003" />
     </effects>
     <description>Holy Priest core passive</description>
   </spell>
@@ -7968,11 +7970,13 @@ $penancehealing=${$47750s1*$&lt;darkside&gt;*(3+$&lt;castigation&gt;+$&lt;harsh&
     <spec id="Shadow Priest" name="shadow" />
     <class id="priest" name="Priest" />
     <attributes>0000101110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
-    <effects count="4">
+    <effects count="6">
       <effect number="1" id="1264657" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" />
       <effect number="2" id="1264737" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-10" scaled_value="-10" misc_value="1" />
       <effect number="3" id="1264738" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-60" scaled_value="-60" />
       <effect number="4" id="1264744" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-38" scaled_value="-38" />
+      <effect number="5" id="1329438" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="25" scaled_value="25" misc_value_2="2932" />
+      <effect number="6" id="1329439" type="6" type_text="Apply Aura (6)" sub_type="649" sub_type_text="Modify Percent PVP Multiplier by Label (649)" base_value="25" scaled_value="25" misc_value_2="4003" />
     </effects>
   </spell>
   <spell id="1262755" name="Benediction" passive="true" proc_chance="101">
@@ -8008,7 +8012,7 @@ During Apotheosis, Flash Heal is upgraded to Benediction.</description>
   </spell>
   <spell id="1262763" name="Benediction" range="40" cast_time_else="1.5" gcd="1.5" proc_chance="101">
     <class id="priest" name="Priest" />
-    <resource type="0" cost="3.15" type_name="Base Mana (0)" cost_mana_flat="7875" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
+    <resource type="0" cost="2.9" type_name="Base Mana (0)" cost_mana_flat="7249" cost_mana_flat_level="90" cost_aura_id="137031" cost_aura_name="Holy Priest" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
       <effect number="1" id="1273235" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="6.82" />

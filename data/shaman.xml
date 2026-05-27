@@ -50,10 +50,10 @@ $?s383010[Earth Shield can only be placed on the Shaman and one other target at 
   </spell>
   <spell id="1064" name="Chain Heal" level="21" range="40" cast_time_else="2" gcd="1.5">
     <class id="shaman" name="Shaman" />
-    <resource type="0" cost="4.5" type_name="Base Mana (0)" cost_mana_flat="11250" cost_mana_flat_level="90" cost_aura_id="137039" cost_aura_name="Restoration Shaman" />
-    <resource type="0" cost="4.5" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="137040" cost_aura_name="Elemental Shaman" />
-    <resource type="0" cost="4.5" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="137041" cost_aura_name="Enhancement Shaman" />
-    <resource type="0" cost="4.5" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="417374" cost_aura_name="Initial Shaman" />
+    <resource type="0" cost="4.28" type_name="Base Mana (0)" cost_mana_flat="10700" cost_mana_flat_level="90" cost_aura_id="137039" cost_aura_name="Restoration Shaman" />
+    <resource type="0" cost="4.28" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="137040" cost_aura_name="Elemental Shaman" />
+    <resource type="0" cost="4.28" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="137041" cost_aura_name="Enhancement Shaman" />
+    <resource type="0" cost="4.28" type_name="Base Mana (0)" cost_mana_flat="37500" cost_mana_flat_level="90" cost_aura_id="417374" cost_aura_name="Initial Shaman" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000010000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
       <effect number="1" id="387" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="2.31" chain_multiplier="0.7" />
@@ -685,7 +685,7 @@ Lava Lash increases the damage of Flame Shock on its target by $334168s1% for $3
   </spell>
   <spell id="61295" name="Riptide" level="10" range="40" gcd="1.5" duration="18">
     <class id="shaman" name="Shaman" />
-    <resource type="0" cost="1.6" type_name="Base Mana (0)" cost_mana_flat="4000" cost_mana_flat_level="90" />
+    <resource type="0" cost="1.52" type_name="Base Mana (0)" cost_mana_flat="3800" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000000000000100000000000000000000000000000000000000000000100000000000000000000000010000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000100100000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000100000000000000000001000000000000000000000000000000000000000000000000010000000000000000000000000000000000000</attributes>
     <effects count="2">
       <effect number="1" id="55127" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="4.80288" />
@@ -841,7 +841,7 @@ $@spelldesc201845][]</description>
   <spell id="77472" name="Healing Wave" replaces_name="Healing Surge" replaces_id="8004" level="10" range="40" cast_time_else="2" gcd="1.5">
     <spec id="Restoration Shaman" name="restoration" />
     <class id="shaman" name="Shaman" />
-    <resource type="0" cost="2.5" type_name="Base Mana (0)" cost_mana_flat="6250" cost_mana_flat_level="90" />
+    <resource type="0" cost="2.38" type_name="Base Mana (0)" cost_mana_flat="5950" cost_mana_flat_level="90" />
     <attributes>0000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="1">
       <effect number="1" id="68093" type="10" type_text="Direct Heal (10)" sub_type="0" base_value="0" scaled_value="0" multiplier_delta="0.05" sp_coefficient="13.6458" chain_multiplier="0.2" />
@@ -8409,8 +8409,8 @@ The global cooldown of abilities used through the Single-Button Assistant is $s1
       <effect number="1" id="1223929" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-4" scaled_value="-4" />
       <effect number="2" id="1266390" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-4" scaled_value="-4" misc_value="1" />
       <effect number="3" id="1266391" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-37" scaled_value="-37" />
-      <effect number="4" id="1266392" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="122" scaled_value="122" />
-      <effect number="5" id="1266393" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="23" scaled_value="23" />
+      <effect number="4" id="1266392" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="155" scaled_value="155" />
+      <effect number="5" id="1266393" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="41" scaled_value="41" />
       <effect number="6" id="1266394" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-34" scaled_value="-34" />
       <effect number="7" id="1266395" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="64" scaled_value="64" />
       <effect number="8" id="1266396" type="6" type_text="Apply Aura (6)" sub_type="647" sub_type_text="Modify Percent PVP Multiplier (647)" base_value="-20" scaled_value="-20" />
