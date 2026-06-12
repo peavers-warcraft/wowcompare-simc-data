@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wowcompare-simc-data
+  description: "Per-class SimC spell_query XML, refreshed daily by CI. Consumed by wow-compare's gatherer service to populate the spell_metadata_overrides table."
+  annotations:
+    github.com/project-slug: peavers-warcraft/wowcompare-simc-data
+spec:
+  type: library
+  lifecycle: production
+  owner: peavers-warcraft
