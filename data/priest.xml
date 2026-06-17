@@ -6813,9 +6813,9 @@ Additionally, Devouring Plague damage taken from $@auracaster increased by $w3%.
       <effect number="1" id="1156226" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="1000" scaled_value="1000" />
       <effect number="2" id="1181323" type="6" type_text="Apply Aura (6)" sub_type="4" sub_type_text="Dummy (4)" base_value="20" scaled_value="20" />
     </effects>
-    <description>Creating a Halo extends the duration of $?a137031[Apotheosis]?a228264[Voidform][Dark Ascension] by ${$s1/1000} sec. If $?a137031[Apotheosis]?a228264[Voidform][Dark Ascension] is not active, up to $454002U seconds is stored.
+    <description>Creating a Halo extends the duration of $?a137031[Apotheosis][Voidform] by ${$s1/1000} sec. If $?a137031[Apotheosis][Voidform] is not active, up to $454002U seconds is stored.
 
-While out of combat or affected by a loss of control effect, the duration of $?a137031[Apotheosis]?a228264[Voidform][Dark Ascension] is paused for up to $s2 sec.</description>
+While out of combat or affected by a loss of control effect, the duration of $?a137031[Apotheosis][Voidform] is paused for up to $s2 sec.</description>
   </spell>
   <spell id="454002" name="Sustained Potency" level="1" duration="120" stacks_max="6" proc_chance="101">
     <class id="priest" name="Priest" />
@@ -6953,7 +6953,7 @@ Angelic Bulwark's absorption effect is increased by $s2% of your maximum health.
 $?a1246517[Ultimate Serenity][Holy Word: Sanctify] applies $?a440671[${$s2/1000}.1][${$s2/1000}] sec of Renew to allies it heals.
 
 $@spellicon139 $@spellname139
-Fill the target with faith in the light, healing for $?a440671[${$139o1*$s1/15000/(1+$440671s2/100)}][${$139o1*$s1/15000}] over ${$s1/1000} sec.</description>
+Fill the target with faith in the light, healing for $?a440671[${$139o1*$s1/15000/(1+$440671s2/100)}.1][${$139o1*$s1/15000}] over ${$s1/1000} sec.</description>
   </spell>
   <spell id="471668" name="Light in the Darkness" passive="true" proc_chance="101">
     <class id="priest" name="Priest" />

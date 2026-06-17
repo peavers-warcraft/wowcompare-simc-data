@@ -1074,9 +1074,9 @@ Damage taken reduced by $w2%.</tooltip>
       <effect number="4" id="738490" type="6" type_text="Apply Aura (6)" sub_type="107" sub_type_text="Add Flat Modifier (107)" modifier="7" modifier_text="Spell Critical Chance (7)" base_value="0" scaled_value="0" misc_value="7" />
     </effects>
     <description>$@spelldesc2565</description>
-    <tooltip>Block chance increased by $w1%.$?$w4&gt;0[
+    <tooltip>Block chance increased by $w1%.$?e1[
 
-Shield Slam damage increased by $w4%][]</tooltip>
+Shield Slam damage increased by $w2%][]</tooltip>
   </spell>
   <spell id="132824" name="Rope Swing Smawh" range="50000">
     <class id="warrior" name="Warrior" />

@@ -4640,7 +4640,7 @@ You have a $443783s2% to conjure an additional Arcane Splinter.][]</tooltip>
     <effects count="1">
       <effect number="1" id="1013852" type="6" type_text="Apply Aura (6)" sub_type="290" sub_type_text="Modify Critical Strike% (290)" base_value="2" scaled_value="2" />
     </effects>
-    <description>Increases Critical Strike chance by $s1%.</description>
+    <description>Increases critical strike chance by $s1%.</description>
   </spell>
   <spell id="383092" name="Arcane Warding" passive="true">
     <class id="mage" name="Mage" />
@@ -6200,7 +6200,7 @@ Each Sphere consumed increases your spell damage during $?c1[Arcane Surge][Combu
       <effect number="5" id="1269665" type="3" type_text="Dummy (3)" sub_type="0" base_value="8" scaled_value="8" />
       <effect number="6" id="1289173" type="3" type_text="Dummy (3)" sub_type="0" base_value="1" scaled_value="1" />
     </effects>
-    <description>$?c2[Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of $s1 Meteorites on its target.][Arcane Barrage summons $s6 $LMeteor:Meteors; for every $s4 Arcane Salvo stacks consumed.]
+    <description>$?c2[Generating a Spellfire Sphere causes your next cast of Fire Blast to call down a storm of $s1 Meteorites on its target.][Arcane Barrage summons $s6 $LMeteorite:Meteorites; for every $s4 Arcane Salvo stacks consumed.]
 
 $@spellicon449559 $@spellname449559
 $@spelldesc449559</description>
@@ -7624,7 +7624,7 @@ Increases the damage of your next Arcane Barrage by $1242974s1%.</description>
     <effects count="1">
       <effect number="1" id="1244679" type="6" type_text="Apply Aura (6)" sub_type="108" sub_type_text="Add Percent Modifier (108)" modifier="15" modifier_text="Spell Critical Bonus Multiplier (15)" base_value="5" scaled_value="5" misc_value="15" />
     </effects>
-    <description>The critical strike damage of your spells is  increased by $s1%.</description>
+    <description>The critical strike damage of your spells is increased by $s1%.</description>
   </spell>
   <spell id="1244107" name="Charm of Medivh" passive="true">
     <class id="mage" name="Mage" />
@@ -7874,7 +7874,7 @@ $@spelldesc199786</description>
       <effect number="1" id="1250225" type="6" type_text="Apply Aura (6)" sub_type="332" sub_type_text="Override Action Spell (Misc w/ Base) (332)" base_value="153595" scaled_value="153595" />
     </effects>
     <description>$@spelldesc1247777</description>
-    <tooltip>Your Blizzard is replaced with Comet Storm.</tooltip>
+    <tooltip>Your Ray of Frost is replaced with Comet Storm.</tooltip>
   </spell>
   <spell id="1247798" name="Glaciate" passive="true">
     <class id="mage" name="Mage" />

@@ -3831,7 +3831,7 @@ Shield and maximum values are doubled while Fiery Brand is active.</description>
       <effect number="6" id="1303330" type="6" type_text="Apply Aura (6)" sub_type="500" sub_type_text="Ignore Spell Charge Cooldown (Category) (500)" base_value="1" scaled_value="1" misc_value="2448" />
     </effects>
     <description>$@spelldesc374968</description>
-    <tooltip>May use $?c2[Infernal Strike][Fel Rush] once, without incurring its cooldown.</tooltip>
+    <tooltip>May use $?c3[Shift]?c2[Infernal Strike][Fel Rush] once, without incurring its cooldown.</tooltip>
   </spell>
   <spell id="388106" name="Soulscar" passive="true" proc_chance="100">
     <class id="demonhunter" name="Demon Hunter" />
