@@ -221,7 +221,7 @@ $damage=${(($SP*0.50)*0.657)+$M1}</variables>
     <attributes>0000000000000000100000000000000000010001001000000000000000001000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000100010000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
       <effect number="1" id="2039" type="27" type_text="Apply Aura in Area (27)" sub_type="4" sub_type_text="Dummy (4)" base_value="50" scaled_value="50" />
-      <effect number="2" id="2040" type="353" sub_type="0" base_value="0" scaled_value="0" misc_value="5420" />
+      <effect number="2" id="2040" type="353" type_text="Create Area Trigger (353)" sub_type="0" base_value="0" scaled_value="0" misc_value="5420" />
       <effect number="3" id="291291" type="6" type_text="Apply Aura (6)" sub_type="226" sub_type_text="Periodic Dummy (226)" period="1" base_value="0" scaled_value="0" />
     </effects>
     <description>Calls down a rain of hellfire the target location, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
@@ -7520,7 +7520,7 @@ Incinerate has a $s2% chance to fire a Demonfire bolt at $s3% increased effectiv
     <attributes>0000000000000000100000000000000000010001001000000000000000001000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000100010000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attributes>
     <effects count="3">
       <effect number="1" id="1196681" type="27" type_text="Apply Aura in Area (27)" sub_type="4" sub_type_text="Dummy (4)" base_value="50" scaled_value="50" />
-      <effect number="2" id="1196682" type="353" sub_type="0" base_value="0" scaled_value="0" misc_value="5420" />
+      <effect number="2" id="1196682" type="353" type_text="Create Area Trigger (353)" sub_type="0" base_value="0" scaled_value="0" misc_value="5420" />
       <effect number="3" id="1196683" type="6" type_text="Apply Aura (6)" sub_type="226" sub_type_text="Periodic Dummy (226)" period="1" base_value="0" scaled_value="0" />
     </effects>
     <description>Calls down a rain of hellfire upon your target, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
